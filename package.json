@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "application.js",
+  "scripts": {
+    "server": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlimcheng/tic-tac-toe.git"
+  },
+  "author": "David Lim Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlimcheng/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/davidlimcheng/tic-tac-toe#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

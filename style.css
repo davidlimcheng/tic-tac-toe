@@ -1,0 +1,103 @@
+/* Elements */
+body {
+  color: #2d3436;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 36px auto;
+  width: 645px;
+}
+
+button {
+  border-radius: 6px;
+  border: 4px solid #2d3436;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px;
+  transition: all 0.4s ease;
+  width: 200px;
+}
+button:hover {
+  background-color: #00b894;
+  border: 4px solid #00b894;
+  color: white;
+}
+button:focus {
+  outline: none;
+}
+
+/* Main */
+.main {
+  text-align: center;
+}
+.main h1 {
+  font-size: 64px;
+}
+
+/* Game */
+.console {
+  color: #00b894;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.game div {
+  height: 215px;
+  width: 215px;
+}
+.game button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: 148px;
+  height: 100%;
+  transition: background-color 0.4s ease;
+  width: 100%;
+}
+.game button:hover {
+  background-color: #55efc4;
+}
+.game button:disabled {
+  background-color: transparent;
+  color: #2d3436;
+  cursor: auto;
+}
+.game .computer-win {
+  background-color: #e17055;
+}
+.game .draw-game {
+  background-color: #ffeaa7;
+}
+.game .player-win {
+  background-color: #00b894;
+}
+.game .top-l.game-space,
+.game .top-c.game-space,
+.game .mid-l.game-space,
+.game .mid-c.game-space,
+.game .top-r.game-space,
+.game .mid-r.game-space {
+  border-bottom: 2px solid #2d3436;
+}
+.game .top-l.game-space,
+.game .top-c.game-space,
+.game .mid-l.game-space,
+.game .mid-c.game-space,
+.game .bot-l.game-space,
+.game .bot-c.game-space {
+  border-right: 2px solid #2d3436;
+}
+
+.options {
+  margin-top: 24px;
+  text-align: center;
+}
+.options button:last-child {
+  margin-left: 24px;
+}
